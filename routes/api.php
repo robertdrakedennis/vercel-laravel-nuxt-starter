@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/test', function (Request $request) {
+Route::get('/', function (Request $request) {
     return response()->json(['status' => 200]);
 });
