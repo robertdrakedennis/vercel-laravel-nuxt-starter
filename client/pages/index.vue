@@ -28,10 +28,10 @@
 <script>
 export default {
   mounted() {
-    let data = (await this.$axios.get('/api/test'));
+    let data = this.$axios.get('/api/test')
 
-    console.log(data);
-  }
+    console.log(data)
+  },
 }
 </script>
 
