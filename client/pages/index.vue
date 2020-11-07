@@ -28,7 +28,7 @@
 <script>
 export default {
   mounted() {
-    let data = (await $axios.get('/api/test'));
+    let data = (await this.$axios.get('/api/test'));
 
     console.log(data);
   }
