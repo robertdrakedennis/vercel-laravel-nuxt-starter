@@ -1,6 +1,6 @@
 export default {
   srcDir: __dirname,
-  
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'vercel-laravel-nuxt-starter',
@@ -23,8 +23,6 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
