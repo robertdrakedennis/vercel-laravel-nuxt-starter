@@ -26,7 +26,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    let data = (await $axios.get('/api/test'));
+
+    console.log(data);
+  }
+}
 </script>
 
 <style>
