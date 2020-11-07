@@ -5,7 +5,7 @@
       "src": "client/nuxt.config.js",
       "use": "@nuxtjs/now-builder",
       "config": {
-        "serverFiles": ["package.json"]
+        "serverFiles": ["client/package.json"]
       }
     },
     {
